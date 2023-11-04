@@ -1,0 +1,111 @@
+# Format Style Options - Created with Clang Power Tools
+---
+AccessModifierOffset: -4
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveAssignments: None
+AlignConsecutiveBitFields: None
+AlignConsecutiveDeclarations: None
+AlignConsecutiveMacros: Consecutive
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: true
+AllowAllConstructorInitializersOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortLambdasOnASingleLine: Inline
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+AttributeMacros: 
+  - __capability
+BinPackArguments: false
+BinPackParameters: false
+BitFieldColonSpacing: Both
+BraceWrapping: 
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: false
+  BeforeElse: true
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+  BeforeLambdaBody: true
+  BeforeWhile: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakBeforeInheritanceComma: false
+BreakInheritanceList: AfterComma
+BreakBeforeConceptDeclarations: true
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+BreakAfterJavaFieldAnnotations: false
+BreakStringLiterals: true
+ColumnLimit: 96
+CompactNamespaces: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerIndentWidth : 4
+ContinuationIndentWidth: 4
+Cpp11BracedListStyle: false
+EmptyLineBeforeAccessModifier: Always
+FixNamespaceComments: true
+IndentCaseBlocks: false
+IndentCaseLabels: true
+IndentExternBlock: Indent
+IndentGotoLabels: false
+IndentPPDirectives: BeforeHash
+IndentRequires: true
+IndentWidth: 4
+IndentWrappedFunctionNames: true
+InsertTrailingCommas: None
+KeepEmptyLinesAtTheStartOfBlocks: false
+Language: Cpp
+NamespaceIndentation: Inner
+ObjCBinPackProtocolList: Never
+ObjCBlockIndentWidth: 4
+ObjCBreakBeforeNestedBlockParam: false
+ObjCSpaceAfterProperty: true
+ObjCSpaceBeforeProtocolList: false
+PenaltyBreakAssignment: 2
+PointerAlignment: Right
+ReflowComments: true
+SortIncludes: false
+SortUsingDeclarations: true
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: true
+SpaceAroundPointerQualifiers: Default
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyBlock: false
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: false
+SpacesInContainerLiterals: true
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+Standard: c++20
+TabWidth: 4
+UseTab: AlignWithSpaces
+...
