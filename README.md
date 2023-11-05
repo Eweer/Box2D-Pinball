@@ -1,12 +1,6 @@
 # Pinball
-
-## Description
-
-After adding the pinball background we started working on the hitboxes around the board and the collisions with the pinball objects. While making the hitboxes, we had an issue escalating the pixels and we couldn’t find the positions of the chains. We ended up fixing it when we tried it on another device.
-
-We found another bug with the hitboxes surrounding the board, where the points in the hitboxes chains appeared in random places. We realized that it was because they were outside the map limits.
-
-
+ - Oriol Rodríguez
+   
 ## Controls
 
  - 1: Gravity set to -1
@@ -19,14 +13,22 @@ We found another bug with the hitboxes surrounding the board, where the points i
  - F2: Toggle draw shapes while mouse joint 
  - N: Toggles stepActive
  - B: If stepActive == False -> do one step
+ - Left/Right arrow: Left/Right flipper
+ - Down Arrow: Launcher
 
+## Description
 
-## Developers
+Config file can be found in Output/config.xml. Collider information can be found in Output/Assets/Textures/level_1/colliders.xml
 
- - Oriol Rodríoguez - Coding, Organizer
- - Adrian Ponce - Coding
- - Eric Regalón - Coding
- - Leone Martí - Coding
+Hitting any of the four "dividers" fills a bit of the cirlcle. When it's full, it gives you bonus points and a x2 point multiplier while "POWER!!!" text is blinking.
+
+Dividers:
+
+![Dividers](https://github.com/Eweer/Box2D-Pinball/assets/17273593/b30855a6-0694-4d80-ab61-ad693b7ae27e)
+
+Circle:
+
+![Game_RE7Q4zQgut](https://github.com/Eweer/Box2D-Pinball/assets/17273593/f5b47365-ec89-4e83-b943-871594069aab)
 
 ## License
 
