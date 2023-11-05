@@ -20,7 +20,7 @@
 
 Config file can be found in Output/config.xml. Collider information can be found in Output/Assets/Textures/level_1/colliders.xml
 
-Hitting any of the four "dividers" fills a bit of the cirlcle. When it's full, it gives you bonus points and a x2 point multiplier while "POWER!!!" text is blinking.
+Hitting any of the four "dividers" fills a bit of the circle. When it's full, it gives you bonus points, and a x2 point multiplier while "POWER!!!" text is blinking.
 
 Dividers:
 
