@@ -259,7 +259,7 @@ private:
 	void DestroyMouseJoint();
 
 	// Debug mode
-	bool debug = true;
+	bool debug = false;
 	bool debugWhileSelected = true;
 	bool stepActive = true;
 

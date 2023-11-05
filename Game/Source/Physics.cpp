@@ -536,7 +536,7 @@ b2RevoluteJoint *Physics::CreateRevoluteJoint(
 
 	rJoint.localAnchorA =
 		b2Vec2(PIXEL_TO_METERS(anchorOffset.x), PIXEL_TO_METERS(anchorOffset.y));
-	const iPoint localBodyAnchor = { 0, bodyOffset.y - body->height / 2 };
+	const iPoint localBodyAnchor = { 0, bodyOffset.y - body->height };
 	rJoint.localAnchorB =
 		b2Vec2(PIXEL_TO_METERS(localBodyAnchor.x), PIXEL_TO_METERS(localBodyAnchor.y));
 

@@ -142,22 +142,16 @@ bool InteractiveParts::Update()
 			app->render->DrawCircle(mainPos.x, mainPos.y, 5, 255, 0, 0);
 		}
 
-		if (std::string(parameters.name()) == "flipper_left")
-		{
-			std::cout << flipperJoint->joint->GetJointAngle() << " | "
-					  << flipperJoint->joint->GetReferenceAngle() << std::endl;
-		}
 		if (flipperJoint->joint->GetJointAngle() >= 1.56f
 		    && flipperJoint->joint->GetMotorSpeed() > 0.0f)
 		{
-			flipperJoint->joint->SetMotorSpeed(-5);
+			flipperJoint->joint->SetMotorSpeed(5);
 		}
 		else if (app->input->GetKey(SDL_SCANCODE_LEFT) == KEY_DOWN)
 		{
 			if (std::string(parameters.name()) == "flipper_left")
 			{
 				flipperJoint->joint->SetMotorSpeed(5);
-				flipperJoint->joint->EnableMotor(true);
 			}
 			else
 			{
@@ -257,10 +251,6 @@ bool InteractiveParts::CreateColliders()
 	{
 		if (std::string(colliderNode.name()) == std::string(parameters.name()))
 		{
-			if (std::string(colliderNode.name()) == "flipper_left")
-			{
-				int xasfas = 0;
-			}
 			return CreateCollidersBasedOnShape(colliderNode);
 		}
 	}
@@ -493,7 +483,7 @@ bool InteractiveParts::CreateFlipperInfo()
 	else if (std::string(this->parameters.name()) == "flipper_right")
 	{
 		flipperHelper.joint = app->physics->CreateRevoluteJoint(
-			flipperHelper.anchor, this->pBody, { 0, 0 }, { 8, 13 }, revoluteProperties
+			flipperHelper.anchor, this->pBody, { 0, 0 }, { 0, 0 }, revoluteProperties
 		);
 	}
 	else
